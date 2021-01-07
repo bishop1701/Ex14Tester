@@ -178,11 +178,11 @@ public class Ex14Test
 
     @Test
     public void question2Tester() {
-        assertEquals(Ex14.smallestSubSum(d, dx), 2);
+        assertEquals(Ex14.smallestSubSum(d, dx), 3);
         assertEquals(Ex14.smallestSubSum(e, ex), -1);
-        assertEquals(Ex14.smallestSubSum(f, fx), 1);
+        assertEquals(Ex14.smallestSubSum(f, fx), 3);
         assertEquals(Ex14.smallestSubSum(g, gx), -1);
-        assertEquals(Ex14.smallestSubSum(h, hx), 1);
+        assertEquals(Ex14.smallestSubSum(h, hx), 2);
         assertEquals(Ex14.smallestSubSum(i, ix), 3);
         assertEquals(Ex14.smallestSubSum(j, jx), 10);
     }
